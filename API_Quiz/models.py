@@ -40,4 +40,4 @@ class Submission(models.Model):
 # Check Score - DONE
 # Cover cases in open text - DONE
 # quiz 0/1/2 to string - DONE
-# requirements.txt - DONE (pip freeze > requirements.txt)
+# requirements.txt - DONE (pipreqs)
