@@ -30,14 +30,3 @@ class Submission(models.Model):
 	submission_text = models.CharField(max_length = 1000)
 	def __str__(self):
 		return str(self.question_id) + " - " +str(self.user_id)
-
-
-
-# Answer - in ques -DONE
-# Add options - DONE
-# Add bool to open text - DONE
-# submission optimise - DONE
-# Check Score - DONE
-# Cover cases in open text - DONE
-# quiz 0/1/2 to string - DONE
-# requirements.txt - DONE (pipreqs)
